@@ -1,0 +1,91 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ISablierV2LockupLinear",
+  "sourceName": "contracts/periphery/Airdrop.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "sender",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "recipient",
+              "type": "address"
+            },
+            {
+              "internalType": "uint128",
+              "name": "totalAmount",
+              "type": "uint128"
+            },
+            {
+              "internalType": "contract ERC20",
+              "name": "asset",
+              "type": "address"
+            },
+            {
+              "internalType": "bool",
+              "name": "cancelable",
+              "type": "bool"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint40",
+                  "name": "cliff",
+                  "type": "uint40"
+                },
+                {
+                  "internalType": "uint40",
+                  "name": "total",
+                  "type": "uint40"
+                }
+              ],
+              "internalType": "struct Durations",
+              "name": "durations",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "account",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "fee",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct Broker",
+              "name": "broker",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct CreateWithDurations",
+          "name": "params",
+          "type": "tuple"
+        }
+      ],
+      "name": "createWithDurations",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "streamId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

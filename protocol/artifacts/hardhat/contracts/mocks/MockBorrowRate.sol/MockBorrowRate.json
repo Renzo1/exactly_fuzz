@@ -1,0 +1,111 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockBorrowRate",
+  "sourceName": "contracts/mocks/MockBorrowRate.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "borrowRate_",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "borrowRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "maturity",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "fixedRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "floatingRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "newRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "setRate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b50604051610215380380610215833981016040819052602b916031565b5f556047565b5f602082840312156040575f80fd5b5051919050565b6101c1806100545f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c806334fcf4371461004e5780637c21fb1d14610062578063c914b43714610087578063d9d9048d1461008f575b5f80fd5b61006061005c3660046100fe565b5f55565b005b610075610070366004610115565b6100a2565b60405190815260200160405180910390f35b6100755f5481565b61007561009d366004610135565b6100ab565b5f545b92915050565b5f6100c76301e133806100be428961016c565b5f5491906100d1565b9695505050505050565b8282028115158415858304851417166100e8575f80fd5b6001826001830304018115150290509392505050565b5f6020828403121561010e575f80fd5b5035919050565b5f8060408385031215610126575f80fd5b50508035926020909101359150565b5f805f805f60a08688031215610149575f80fd5b505083359560208501359550604085013594606081013594506080013592509050565b818103818111156100a557634e487b7160e01b5f52601160045260245ffdfea2646970667358221220524fa1c5a723ff48b7b7618c6f6b8581b0847ad0dd11f4a8dc9bc04da137dd1a64736f6c63430008190033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061004a575f3560e01c806334fcf4371461004e5780637c21fb1d14610062578063c914b43714610087578063d9d9048d1461008f575b5f80fd5b61006061005c3660046100fe565b5f55565b005b610075610070366004610115565b6100a2565b60405190815260200160405180910390f35b6100755f5481565b61007561009d366004610135565b6100ab565b5f545b92915050565b5f6100c76301e133806100be428961016c565b5f5491906100d1565b9695505050505050565b8282028115158415858304851417166100e8575f80fd5b6001826001830304018115150290509392505050565b5f6020828403121561010e575f80fd5b5035919050565b5f8060408385031215610126575f80fd5b50508035926020909101359150565b5f805f805f60a08688031215610149575f80fd5b505083359560208501359550604085013594606081013594506080013592509050565b818103818111156100a557634e487b7160e01b5f52601160045260245ffdfea2646970667358221220524fa1c5a723ff48b7b7618c6f6b8581b0847ad0dd11f4a8dc9bc04da137dd1a64736f6c63430008190033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
